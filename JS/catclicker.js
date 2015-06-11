@@ -86,11 +86,6 @@ list: function() {
 
     var elem = document.createElement('li');
     elem.textContent =  theCats[i].name
-    
-    document.getElementById("name").innerHTML = theCats[0].name 
-    document.getElementById("thecat").src = theCats[0].url;
-    document.getElementById("count").innerHTML = "Count: " + theCats[0].numClicks;
-    octopus.setCurrentCat(theCats[0]);
 
     elem.addEventListener('click', (function(seeCat) {
         return function() {
