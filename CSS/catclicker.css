@@ -1,0 +1,13 @@
+img{
+    width: 40%;
+}
+ul{
+    float: right;
+    margin-right: 40%
+}
+h1{
+    margin-left: 20%;
+}
+#admin{
+    display: none;
+}
